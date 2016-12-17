@@ -5,6 +5,8 @@ package app2;
  */
 public class app1 {
     public static void main(String[] args) {
-        byte [] l = new byte [Integer.MAX_VALUE];
+//        byte [] l = new byte [Integer.MAX_VALUE];
+        System.out.println("Hello");
     }
+
 }
