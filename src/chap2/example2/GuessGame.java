@@ -41,18 +41,19 @@ public class GuessGame {
 
             if (guessp1 == targetNumber) {
                 p1isTight = true;
+                System.out.println("Первый игрок угадал!!! это число " + guessp1);
+
             }
             if (guessp2 == targetNumber) {
                 p2isTight = true;
+                System.out.println("Второй игрок угадал!!! это число " + guessp2);
             }
             if (guessp3 == targetNumber) {
                 p3isTight = true;
+                System.out.println("Третий игрок угадал!!! это число " + guessp3);
             }
             if (p1isTight || p2isTight || p3isTight) {
                 System.out.println("У нас есть победитель!");
-                System.out.println("Первый игрок угадал? " + p1isTight);
-                System.out.println("Второй игрок угадал? " + p2isTight);
-                System.out.println("Третий игрок угадал? " + p3isTight);
                 System.out.println("Конец игры.");
                 break;
             } else {
