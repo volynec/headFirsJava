@@ -5,7 +5,7 @@ package chap2.example2;
  */
 public class GameLauncher {
     public static void main(String[] args) {
-GuessGame game = new GuessGame();
+        GuessGame game = new GuessGame();
         game.startGame();
     }
 }
