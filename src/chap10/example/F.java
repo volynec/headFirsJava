@@ -1,4 +1,4 @@
-package chap10;
+package chap10.example;
 
 /**
  * Created by user on 25.01.2017.

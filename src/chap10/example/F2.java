@@ -1,13 +1,11 @@
-package chap10;
+package chap10.example;
 
 /**
  * Created by user on 25.01.2017.
  */
-public class F1 {
-    int x;
-    public static void go(){
+public class F2 {
+// final int x;
+    public void go(){
 //        System.out.println(x);
     }
-
-
 }
