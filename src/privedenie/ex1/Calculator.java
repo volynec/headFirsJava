@@ -19,9 +19,8 @@ public class Calculator {
             String item = expr[i];
             if (item.contains("+")) {
                 addition.calculate(item);
-                addition.getResult();
             }else if (item.contains("-")){
-             subtraction.getResult(item);
+             subtraction.calculate(item);
              }
         }
     }

@@ -9,9 +9,14 @@ public class Addition extends Operation {
         super(operation);
     }
 
-
-    public void getResult() {
-        int result = a + b;
-        System.out.println(a + " " + operation + " " + b + " результат = " + result);
+    @Override
+    public void calculate(String s) {
+        String[] num = s.split("\\D+");
+        a = Integer.parseInt(num[0]);
+        b = Integer.parseInt(num[1]);
+        c = a+b;
+        getResult();
     }
+
+
 }
